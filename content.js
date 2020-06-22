@@ -6,13 +6,8 @@ document.onkeypress = (e) => {
     return;
   }
 
-  // If shift+L is pressed
-  if (evt.code === "KeyL") {
-    // Like the video
-    document.getElementById("top-level-buttons").children[0].click();
-  }
   // Speed up the video
-  else if(evt.code === "BracketRight") {
+  if(evt.code === "BracketRight") {
     // Add 0.25 to the playback rate
     const playbackRate = document.getElementsByTagName("video")[0].playbackRate + 0.25;
     // Limit the playback to the default amount
