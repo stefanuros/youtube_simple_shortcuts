@@ -24,4 +24,8 @@ document.onkeypress = (e) => {
     // Limit the playback to the default amount
     document.getElementsByTagName("video")[0].playbackRate = Math.min(Math.max(playbackRate, 0.25), 2);
   }
+  // Skip the ad by speeding through it
+  else if(evt.code === "KeyS") {
+    document.getElementsByTagName("video")[0].playbackRate = 16;
+  }
 }
