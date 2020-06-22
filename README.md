@@ -8,8 +8,6 @@ way to fix that without the need to use a trackpad.
 
 Note: Only works on youtube.com
 
-`shift + L` - Click the like button
-
 `shift + [` - Slow down the video by 0.25 (to a minimum of 0.25 times normal speed)
 
 `shift + ]` - Speed down the video by 0.25 (to a maximum of 2 times normal speed)
